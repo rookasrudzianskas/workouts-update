@@ -13,12 +13,12 @@ type Query {
   sets(exercise: String!, username: String!): Root
     @rest(
       method: POST
-      endpoint: "https://eu-central-1.aws.data.mongodb-api.com/app/data-dthng/endpoint/data/v1/action/find"
+      endpoint: "https://eu-central-1.aws.data.mongodb-api.com/app/data-aaovp/endpoint/data/v1/action/find"
       headers: [
         { name: "access-control-request-headers", value: "*" }
         {
           name: "api-key"
-          value: "8HRrSjxvsScn3TgmTkmoGxIwvbczFvVTF0YIq3DlM1Q1KPEI5y4DhI3SzBkVYV9Z"
+          value: "OJiCU5jminTY2Q47UwpJUixsqVSQjLXCC8mfZt17tNI8Gfr9t8MD6cfGkK6gdc0o"
         }
       ]
       postbody: """
