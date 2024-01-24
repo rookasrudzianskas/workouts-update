@@ -24,7 +24,7 @@ type Query {
       postbody: """
       {
         "collection": "sets",
-        "dataSource": "Cluster1",
+        "dataSource": "Cluster3",
         "database": "workouts",
         "filter": {
           "exercise": "{{ .Get "exercise" }}",

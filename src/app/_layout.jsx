@@ -4,6 +4,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import AuthContextProvider from '../providers/AuthContext';
 
+
 const client = new QueryClient();
 
 export default function RootLayout() {
