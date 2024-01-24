@@ -6,7 +6,6 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
-import exercises from '../../assets/data/exercises.json';
 import { Stack } from 'expo-router';
 import { useState } from 'react';
 import { gql } from 'graphql-request';
