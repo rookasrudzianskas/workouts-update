@@ -13,7 +13,6 @@ import { useQuery } from '@tanstack/react-query';
 import graphqlClient from '../graphqlClient';
 import NewSetInput from '../components/NewSetInput';
 import SetsList from '../components/SetsList';
-import ProgressGraph from '../components/ProgressGraph';
 
 const exerciseQuery = gql`
   query exercises($name: String) {
