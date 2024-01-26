@@ -12,9 +12,9 @@ const client = new QueryClient();
 export default function RootLayout() {
   useEffect(() => {
     if (Platform.OS === 'ios') {
-      Purchases.configure({apiKey: ""});
+      Purchases.configure({apiKey: process.env.EXPO_PUBLIC_RS_IOS});
     } else if (Platform.OS === 'android') {
-      Purchases.configure({apiKey: ""});
+      Purchases.configure({apiKey: process.env.EXPO_PUBLIC_RS_IOS});
     }
   }, []);
 
