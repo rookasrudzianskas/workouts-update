@@ -2186,6 +2186,16 @@
   dependencies:
     web-streams-polyfill "^3.1.1"
 
+"@revenuecat/purchases-typescript-internal@8.10.1":
+  version "8.10.1"
+  resolved "https://registry.yarnpkg.com/@revenuecat/purchases-typescript-internal/-/purchases-typescript-internal-8.10.1.tgz#9e5079102061e559ef2fadba969090bdf112d47a"
+  integrity sha512-T3GJHtYAHXLrM3XkAuxZCeYpn1yEShRb1qY31AIuyp/9eTTHgYhNa/jteNj1rlxYYFD4pCSi+dJeoy4vrpcf5w==
+
+"@revenuecat/purchases-typescript-internal@9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@revenuecat/purchases-typescript-internal/-/purchases-typescript-internal-9.0.0.tgz#d71c2d6b5d59388c66e93caeeefbbb7cdb34ceba"
+  integrity sha512-yOavjkAEB+w9+uKOJMuudGVgfQouvm5QaGc12Fnjl0YLUn3laGe+nw9+bEibcf0B3XTKVLfhv18Hw/qlc4mMKw==
+
 "@segment/loosely-validate-event@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@segment/loosely-validate-event/-/loosely-validate-event-2.0.0.tgz#87dfc979e5b4e7b82c5f1d8b722dfd5d77644681"
@@ -5715,6 +5725,21 @@ react-native-graph@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/react-native-graph/-/react-native-graph-1.0.2.tgz#960c682159e18f053322492c0572210c82076fc8"
   integrity sha512-VjJcOrU6fSkvG/Gl9euAsPnTewQK/Fk2QdCgdgY4/lY/XuoFWF2m5oYK3g1OodEdPpB4xLUlGolskEmcON2yzA==
+
+react-native-purchases-ui@^7.17.0:
+  version "7.17.0"
+  resolved "https://registry.yarnpkg.com/react-native-purchases-ui/-/react-native-purchases-ui-7.17.0.tgz#9348cb95d7c6b3108ee5a926452c0aa7aa655167"
+  integrity sha512-IVdKqhGshY3wWWqPb9+PLLDwgY9YzPNdNb1eYxommX1xUY3s+Kr9bzFWcJTZGAtKLoQiNokE860Yi80bePAolA==
+  dependencies:
+    "@revenuecat/purchases-typescript-internal" "8.10.1"
+    react-native-purchases "7.17.0"
+
+react-native-purchases@7.17.0, react-native-purchases@^7.17.0:
+  version "7.17.0"
+  resolved "https://registry.yarnpkg.com/react-native-purchases/-/react-native-purchases-7.17.0.tgz#937967307d700275d958851f3d5dbb3cd03f1511"
+  integrity sha512-IdneoLuWqHUwa6oMNyalJ2Puh3yCpL2RtQfuf1nowuQnyuyqCCftCbk4kIdAJ9pnsx6JO9Qk6g4xg0Ehs+nkYg==
+  dependencies:
+    "@revenuecat/purchases-typescript-internal" "9.0.0"
 
 react-native-reanimated@~3.6.0:
   version "3.6.1"
