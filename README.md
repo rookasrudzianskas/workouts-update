@@ -1,1 +1,1 @@
-Workout app
+Workout app!
